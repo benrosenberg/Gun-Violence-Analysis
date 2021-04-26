@@ -1,4 +1,4 @@
-# Gun-Violence-Analysis
+# Gun Violence Analysis
 ORIE 3120 Project
 
 [Link to assignment](https://people.orie.cornell.edu/pfrazier/orie3120/project.html)

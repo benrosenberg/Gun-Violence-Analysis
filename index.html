@@ -558,9 +558,6 @@
 <div class="table-wrapper" data-markdown="block">
 <p><img src="images/32_to_71_seasonality.png" /></p>
 </div>
-<div class="table-wrapper" data-markdown="block">
-<p><img src="images/32_to_71_seasonality_WITH_LINE.png" /></p>
-</div>
 <p>The above plots from Tableau illustrate trends for latitudes under 32 degrees North and latitudes over 32 degrees North. While there doesn’t appear to be a clear trend in gun violence incidents under 32 degrees North in latitude, the number of incidents over that latitude appears to follow a clear sinusoidal trend — moreso, even, than the trend exhibited by the visualization in Question 2. To more accurately characterise this dichotomy, we will appeal to the sinusoidal nature of each of the plots, and attempt to show that there is a significant difference in these two trends — which should key us in on the relationship temperature has with gun violence.</p>
 <h3 id="the-methodology-sinusoidal-regression">The Methodology: Sinusoidal Regression</h3>
 <p>As temperature throughout the year fluctuates sinusoidally (temperature in the United States is typically coldest early and late in the year, and warmest mid-year over the summer), an appropriate regression model for examining the relationship between date (a proxy for temperature) and gun casualties will be sinusoidal. This relationship will be relatively strong if seasonality holds, but quite weak if it does not. We plan to run two separate regressions; one for northern latitudes (above a given threshold), and for southern latitudes (below the given threshold). If seasonality is only present above the latitude threshold, as it appears to be in the visualizations above, we have evidence that gun violence is temperature-linked.</p>
